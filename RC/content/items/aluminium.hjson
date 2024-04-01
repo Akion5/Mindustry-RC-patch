@@ -1,0 +1,7 @@
+{
+    hardness: 1,
+    color: "BCB690FF",
+    cost: 1
+    research: core2x2
+    alwaysUnlocked: true
+}

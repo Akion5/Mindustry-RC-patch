@@ -1,0 +1,62 @@
+type: ItemTurret
+reload: 45
+name: Гром
+description: "Точная, скоростная турель, стреляющая двумя залпами снаряда за раз.",
+shootCone: 20
+rotateSpeed: 3.6
+targetGround: true
+targetAir: false
+range: 125
+recoil: 1.5
+size: 2
+health: 200
+AmmoPerShot: 2
+shootSound: artillery
+shootShake: 1.6
+shootY: 5
+outlineColor: 404048
+innacury: 35
+shoot: {
+    shots: 2
+    spread: 0
+    shotDelay: 3
+}
+
+ammoTypes: {
+    copper: {
+        damage: 25
+        speed: 6
+        height: 15
+        width: 10
+        lifetime: 20
+    }
+    aluminium: {
+        damage: 34
+        speed: 6.25
+        height: 15
+        width: 10
+        lifetime: 20
+    }
+    silicon: {
+        damage: 42
+        speed: 6.5
+        height: 15
+        width: 10
+        lifetime: 20
+    }
+    sand: {
+        damage: 100000
+        speed: 400
+        height: 15
+        width: 10
+        lifetime: 20
+    }
+}
+requirements: [
+    copper/25
+    lead/5
+    aluminium/10
+]
+category: turret
+research: core2x2
+researchCostMultiplier: 0.2

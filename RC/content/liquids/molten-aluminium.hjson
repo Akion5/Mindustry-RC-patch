@@ -1,0 +1,11 @@
+{
+    color: "9F9C90FF",
+    name: "Molten Aluminium"
+    heatCapacity: 1,
+    boilPoint: 5.0,
+    coolant: false,
+    temperature: 1,
+    research: {
+        parent: "core2x2"
+    }
+}

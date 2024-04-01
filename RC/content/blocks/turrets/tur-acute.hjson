@@ -1,0 +1,83 @@
+type: ItemTurret
+size: 2,
+name: Остриё,
+health: 540,
+reload: 50,
+range: 120,
+maxAmmo: 12,
+inaccuracy: 0,
+shots: 2,
+targetAir: true,
+targetGround: false,
+shootCone: 8,
+spread: 1,
+recoilAmount: 3,
+restitution: 0.5,
+rotateSpeed: 5,
+shootSound: shotgun,
+ammoPerShot: 1,
+shootY: 5
+ammoTypes: {
+ scrap: {
+  type: shrapnelBulletType,
+  lifetime: 15,
+  damage: 24,
+  serrations: 4
+  serrationSpacing: 16
+  serrationLenScl: 20
+  serrationWidth: 5
+  hitLarge: true
+  fromColor: "#dab08d",
+  toColor: "#9c948c",
+  length: 100,
+  width: 8,
+  hitEffect: blastExplosion,
+  shootEffect: blastExplosion,
+  pierce: true,
+  smokeEffect: hitBulletBig
+ }
+ lead: {
+  type: shrapnelBulletType,
+  lifetime: 20,
+  damage: 35,
+  status: freezing
+  statusDuration: 30
+  serrations: 6
+  serrationSpacing: 16
+  serrationLenScl: 15
+  serrationWidth: 5
+  fromColor: "716981",
+  toColor: "817798",
+  length: 100,
+  width: 9,
+  hitEffect: blastExplosion,
+  shootEffect: blastExplosion,
+  pierce: true,
+  smokeEffect: hitBulletBig
+ }
+
+		plastanium: {
+  type: shrapnelBulletType,
+  lifetime: 40,
+  damage: 70,
+  serrations: 4
+  serrationSpacing: 16
+  serrationLenScl: 20
+  serrationWidth: 5
+  hitLarge: true
+  fromColor: "#cbd87e",
+  toColor: "839136FF",
+  length: 100,
+  width: 9,
+  hitEffect: "blastExplosion",
+  shootEffect: "blastExplosion",
+  pierce: true,
+  smokeEffect: "hitBulletBig"
+ }
+},
+category: turret
+requirements: [
+  copper/60
+  plastanium/110
+  ]
+

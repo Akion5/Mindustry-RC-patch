@@ -1,0 +1,20 @@
+category: power
+type: PowerNode
+maxNodes: 8
+laserRange: 7
+outputsPower: true,
+consumesPower: true,
+research: core2x2
+health: 35
+size: 1
+requirements: [
+ lead/5
+ aluminium/3
+ copper/2
+ ]
+consumes: {
+ powerBuffered: 25
+}
+hasPower: true
+hasItems: false
+hasLiquids: false
