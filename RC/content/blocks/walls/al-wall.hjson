@@ -1,9 +1,0 @@
-type: Wall
-size: 1
-health: 385
-category: defense
-requirements: [
-  aluminium/8
-]
-research: core2x2
-researchCostMultiplier: 0.5

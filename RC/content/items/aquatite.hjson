@@ -1,7 +1,0 @@
-{
-    hardness: 1,
-    color: "79E4D8FF",
-    cost: 1
-    research: aluminium
-    alwaysUnlocked: false
-}
