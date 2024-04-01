@@ -1,0 +1,10 @@
+{
+ "name":"RC",
+ "displayName": "RC patch",
+ "authtor":"Akion",
+ "description":" - "
+
+ "version":0.0.1
+ "minGameVersion":146
+ "hideBrowser": false,
+}

@@ -1,0 +1,31 @@
+type: GenericCrafter,
+health: 250,
+size: 2,
+hasItems: true,
+ambientSound: steam
+ambientSoundVolume: 0.10
+craftTime: 30,
+craftEffect: smeltsmoke
+updateEffect: smoke
+hasPower: true,
+hasLiquids: false,
+updateEffect: none,
+consumes: {
+ power: 0.2,
+ items: [
+  copper/1
+	 lead/1
+ ],
+},
+requirements: [
+ thorium/200
+ silicon/300
+],
+category: crafting,
+outputItem: silicon/2
+research: {
+ parent: router
+},
+researchCost: [
+ copper/50
+]
